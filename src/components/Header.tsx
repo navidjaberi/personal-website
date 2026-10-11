@@ -10,7 +10,7 @@ import { usePathname, useRouter } from "../i18n/navigation";
 import { useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
-import Image from "next/image";
+import FlagImage from "@/src/components/base/header/FlagImage";
 const Header: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
   const languages = [
     {
@@ -53,6 +53,12 @@ const Header: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
       });
     });
   };
+  useEffect(() => {
+    ["/flags/us.svg", "/flags/ir.svg", "/flags/tr.svg"].forEach((flag) => {
+      const img = new window.Image();
+      img.src = flag;
+    });
+  }, []);
   useEffect(() => {
     const onScroll = () => {
       setHeaderStickTop(window.scrollY > 800);
@@ -176,12 +182,13 @@ const Header: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
                   aria-label="Change language"
                   className="flex items-center rounded-full  hover:bg-white/10 transition"
                 >
-                  <Image
+                  <FlagImage
+                    key={currentLanguage.flag}
                     src={currentLanguage.flag}
                     alt={currentLanguage.name}
-                    width={20}
-                    height={20}
-                    className="w-5 h-5 rounded-full"
+                    size={20}
+                    pending={isPending}
+                    className="w-5 h-5"
                   />
                 </button>
 
@@ -215,12 +222,11 @@ const Header: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
                       }
                       `}
                       >
-                        <Image
+                        <FlagImage
                           src={language.flag}
                           alt={language.name}
-                          width={24}
-                          height={24}
-                          className="w-6 h-6 rounded-full"
+                          size={24}
+                          className="w-6 h-6"
                         />
 
                         <span className="text-darkPrimary dark:text-white">
@@ -313,12 +319,13 @@ const Header: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
                 aria-label="Change language"
                 className="flex items-center rounded-full  hover:bg-white/10 transition"
               >
-                <Image
+                <FlagImage
+                  key={currentLanguage.flag}
                   src={currentLanguage.flag}
                   alt={currentLanguage.name}
-                  width={28}
-                  height={24}
-                  className="w-7 h-6 rounded-full"
+                  size={28}
+                  pending={isPending}
+                  className="w-7 h-6"
                 />
               </button>
 
@@ -351,12 +358,11 @@ const Header: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
                       }
                       `}
                     >
-                      <Image
+                      <FlagImage
                         src={language.flag}
                         alt={language.name}
-                        width={24}
-                        height={24}
-                        className="w-6 h-6 rounded-full"
+                        size={24}
+                        className="w-6 h-6"
                       />
 
                       <span className="text-white">{language.name}</span>

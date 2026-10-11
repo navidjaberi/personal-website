@@ -12,7 +12,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "role": "Frontend Engineer · Vue.js / Nuxt",
+    "role": "Frontend Engineer",
+    "stack": "Vue.js / Nuxt / React / Next.js",
     "location": "Tehran, Iran / Famagusta, Cyprus",
     "description": "I build fast, accessible and well-tested web interfaces, and I'm looking for a team where I can own the frontend of a product.",
     "cv": "Download CV",

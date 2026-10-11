@@ -12,7 +12,8 @@
     "contact": "İletişim"
   },
   "hero": {
-    "role": "Frontend Mühendisi · Vue.js / Nuxt",
+    "role": "Frontend Mühendisi",
+    "stack": "Vue.js / Nuxt / React / Next.js",
     "location": "Tahran, İran / Gazimağusa, Kıbrıs",
     "description": "Hızlı, erişilebilir ve iyi test edilmiş web arayüzleri geliştiriyorum; bir ürünün frontend tarafının sorumluluğunu üstlenebileceğim bir ekip arıyorum.",
     "cv": "CV'yi İndir",

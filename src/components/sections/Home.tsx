@@ -94,6 +94,9 @@ const Home = ({ ready = true, onHeroLoaded }: HomeProps) => {
               transition={{ duration: 0.8, delay: 0.25, ease }}
             >
               {t("role")}
+              <bdi dir="ltr" className="block lg:text-lg text-sm mt-1">
+                {t("stack")}
+              </bdi>
             </motion.p>
             <motion.p
               className="text-xs md:text-sm px-2 mt-1 mb-4 opacity-70 text-black dark:text-white"
