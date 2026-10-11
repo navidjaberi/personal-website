@@ -1,6 +1,7 @@
 export const projectsTr = [
   {
     id: "vue-smart-loading-kit",
+    featured: true,
     title: "Vue Smart Loading Kit",
     subtitle: "Açık kaynak Vue 3 kütüphanesi",
     points: [
@@ -17,6 +18,7 @@ export const projectsTr = [
   },
   {
     id: "fitplate",
+    featured: false,
     title: "FitPlate",
     subtitle: "Yapay zekâ destekli beslenme ve fitness paneli",
     points: [
@@ -32,6 +34,7 @@ export const projectsTr = [
   },
   {
     id: "food-corner",
+    featured: false,
     title: "Food Corner",
     subtitle: "Yemek sipariş uygulaması",
     points: [

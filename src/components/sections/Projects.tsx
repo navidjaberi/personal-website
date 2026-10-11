@@ -4,7 +4,7 @@ import { ease, fadeUp } from "@/src/components/motion";
 import Link from "next/link";
 import { getProjects } from "../base/projects/projectHelper";
 import { useLocale, useTranslations } from "next-intl";
-import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
+import { ArrowUpRightIcon, StarIcon } from "@heroicons/react/24/outline";
 
 const Projects = () => {
   const locale = useLocale();
@@ -32,11 +32,23 @@ const Projects = () => {
         {projects.map((project) => (
           <motion.div
             key={project.id}
-            className="w-full dark:text-white text-black text-start rounded-xl p-4 md:p-6 mt-10 border border-darkPrimary/30 dark:border-darkSecondary/30 bg-[#DDD0C8] dark:bg-black hover:shadow-xl"
+            className={`w-full dark:text-white text-black text-start rounded-xl p-4 md:p-6 mt-10 bg-[#DDD0C8] dark:bg-black hover:shadow-xl ${
+              project.featured
+                ? "border-2 border-lightPrimary dark:border-darkSecondary shadow-lg"
+                : "border border-darkPrimary/30 dark:border-darkSecondary/30"
+            }`}
             {...fadeUp}
             whileHover={{ scale: 1.02, transition: { duration: 0.25, ease } }}
           >
-            <h3 className="md:text-2xl text-lg">{project.title}</h3>
+            {project.featured && (
+              <span className="inline-flex items-center gap-1 text-xs md:text-sm px-3 py-1 mb-3 rounded-3xl font-medium bg-lightPrimary text-white dark:bg-darkSecondary dark:text-black">
+                <StarIcon className="w-4 h-4" />
+                {t("featured")}
+              </span>
+            )}
+            <h3 className={project.featured ? "md:text-3xl text-xl font-semibold" : "md:text-2xl text-lg"}>
+              {project.title}
+            </h3>
             <p className="md:text-sm text-xs opacity-60 mt-1">
               {project.subtitle}
             </p>

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navid Jaberi | Frontend Mühendisi (Vue.js / Nuxt)",
-    "description": "Vue ve Nuxt ile dört yıllık deneyime sahip, uzaktan çalışmaya açık frontend mühendisi Navid Jaberi. Deneyim, açık kaynak projeler, yetenekler ve özgeçmiş."
+    "title": "Navid Jaberi | Frontend Mühendisi",
+    "description": "Hızlı ve erişilebilir web uygulamaları geliştirmede dört yıllık deneyime sahip frontend mühendisi Navid Jaberi. Deneyim, açık kaynak projeler, yetenekler ve özgeçmiş."
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -12,20 +12,20 @@
     "contact": "İletişim"
   },
   "hero": {
-    "role": "Frontend Mühendisi · Vue.js / Nuxt",
-    "location": "Tahran, İran / Gazimağusa, Kıbrıs · Uzaktan çalışmaya açık",
-    "description": "Hızlı, erişilebilir ve test edilmiş Vue ve Nuxt ürünleri geliştiriyorum; bir frontend'in sorumluluğunu üstlenebileceğim bir ekip arıyorum.",
+    "role": "Frontend Mühendisi",
+    "location": "Tahran, İran / Gazimağusa, Kıbrıs",
+    "description": "Hızlı, erişilebilir ve iyi test edilmiş web arayüzleri geliştiriyorum; bir ürünün frontend tarafının sorumluluğunu üstlenebileceğim bir ekip arıyorum.",
     "cv": "CV'yi İndir",
     "contact": "İletişime Geç"
   },
   "about": {
     "title": "Hakkımda",
-    "description": "Merhaba, ben Navid 👋 kendi kendine öğrenmiş bir frontend mühendisiyim. 2021'de React ile başladım, kendimi Vue'da buldum ve dört yıldır Vue ve Nuxt ürünleri geliştiriyorum; en son Dongi'de uzaktan çalışan bir Scrum ekibinde tam zamanlı çalıştım.\n\nBir yol haritası olmadan öğrenmek beni dikkatli ve meraklı yaptı: teslim ettiğim şeyi test ediyorum ve yeni araçları erkenden öğreniyorum. Bunu, mutasyon testiyle doğrulanan açık kaynak Vue kütüphanem Vue Smart Loading Kit'te ve testler ile tiplerle kontrol altında tuttuğum Claude Code, Codex ve Copilot ile günlük yapay zekâ destekli çalışma düzenimde görebilirsiniz.\n\nAna teknoloji yığınım Vue 3, Nuxt, TypeScript, Pinia ve Tailwind CSS; React ve Next.js ile de geliştiriyorum, bu site de Next.js ile yapıldı. Kullanıcıların hissettiği ama nadiren gördüğü şeyleri önemsiyorum: erişilebilirlik, Core Web Vitals, teknik SEO ve RTL ile çok dilli arayüzler.\n\nPsikoloji lisans derecem var ve bu hâlâ geliştirdiğim ürünleri kullanan insanlara bakışımı şekillendiriyor. Farsça (ana dil), İngilizce (ileri) ve Türkçe (temel) konuşuyorum.\n\nBir frontend'in sorumluluğunu üstlenebileceğim ve gelişmeye devam edebileceğim bir ekip arıyorum."
+    "description": "Ben Navid Jaberi; SaaS platformlarından dahili araçlara ve SEO odaklı sitelere kadar gerçek web uygulamaları geliştirmede dört yıllık deneyime sahip bir frontend mühendisiyim. En son Dongi'de bir Scrum ekibinde tam zamanlı çalıştım.\n\nFrontend'i yapılandırılmış bir yol haritasını adım adım izleyerek öğrendim ve hâlâ böyle çalışıyorum: teslim ettiğim her şeyi test ediyorum ve yeni araçları erkenden öğreniyorum. En iyi örneği, npm'de yayınladığım ve mutasyon testiyle doğrulanan açık kaynak kütüphanem Vue Smart Loading Kit. Günlük işimde Claude Code, Codex ve Copilot gibi yapay zekâ araçlarını da kullanıyorum; çıktılarını testler ve tipler kontrol ediyor.\n\nAna araçlarım TypeScript, Vue, Nuxt, React, Next.js, Pinia ve Tailwind CSS; bu site de Next.js ile yapıldı. Kullanıcıların hissettiği ama nadiren gördüğü şeyleri önemsiyorum: erişilebilirlik, Core Web Vitals, teknik SEO ve RTL ile çok dilli arayüzler.\n\nPsikoloji lisans derecem var; bu, geliştirdiğim ürünleri kullanan insanlara bakışımı hâlâ şekillendiriyor. Farsça (ana dil), İngilizce (ileri) ve Türkçe (temel) konuşuyorum.\n\nBir ürünün frontend tarafının sorumluluğunu üstlenebileceğim ve gelişmeye devam edebileceğim bir ekip arıyorum."
   },
   "contact": {
     "title": "İletişim",
     "thanks": "Ziyaret ettiğiniz için teşekkürler!",
-    "description": "Uzaktan frontend rollerine açığım. Bana en hızlı e-postayla ulaşabilir ya da LinkedIn'den mesaj atabilirsiniz.",
+    "description": "Yeni frontend rollerine açığım. Bana en hızlı e-postayla ulaşabilir ya da LinkedIn'den mesaj atabilirsiniz.",
     "cv": "CV'yi İndir"
   },
   "experiences": {
@@ -34,6 +34,7 @@
   },
   "projects": {
     "title": "Projeler",
+    "featured": "Öne Çıkan",
     "demo": "Canlı demo",
     "github": "GitHub",
     "npm": "npm"

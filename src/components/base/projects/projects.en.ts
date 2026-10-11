@@ -1,6 +1,7 @@
 export const projectsEn = [
   {
     id: "vue-smart-loading-kit",
+    featured: true,
     title: "Vue Smart Loading Kit",
     subtitle: "Open-source Vue 3 library",
     points: [
@@ -17,6 +18,7 @@ export const projectsEn = [
   },
   {
     id: "fitplate",
+    featured: false,
     title: "FitPlate",
     subtitle: "AI nutrition & fitness dashboard",
     points: [
@@ -32,6 +34,7 @@ export const projectsEn = [
   },
   {
     id: "food-corner",
+    featured: false,
     title: "Food Corner",
     subtitle: "Food ordering app",
     points: [
