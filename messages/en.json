@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Navid Jaberi | Frontend Engineer",
+    "title": "Navid Jaberi | Frontend Engineer (Vue.js / Nuxt)",
     "description": "Navid Jaberi, a frontend engineer with more than 4 years of experience building fast, accessible web applications. Experience, open-source projects, skills and resume."
   },
   "nav": {
@@ -12,7 +12,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "role": "Frontend Engineer",
+    "role": "Frontend Engineer · Vue.js / Nuxt",
     "location": "Tehran, Iran / Famagusta, Cyprus",
     "description": "I build fast, accessible and well-tested web interfaces, and I'm looking for a team where I can own the frontend of a product.",
     "cv": "Download CV",

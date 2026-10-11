@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Navid Jaberi | Frontend Mühendisi",
+    "title": "Navid Jaberi | Frontend Mühendisi (Vue.js / Nuxt)",
     "description": "Hızlı ve erişilebilir web uygulamaları geliştirmede 4 yılı aşkın deneyime sahip frontend mühendisi Navid Jaberi. Deneyim, açık kaynak projeler, yetenekler ve özgeçmiş."
   },
   "nav": {
@@ -12,7 +12,7 @@
     "contact": "İletişim"
   },
   "hero": {
-    "role": "Frontend Mühendisi",
+    "role": "Frontend Mühendisi · Vue.js / Nuxt",
     "location": "Tahran, İran / Gazimağusa, Kıbrıs",
     "description": "Hızlı, erişilebilir ve iyi test edilmiş web arayüzleri geliştiriyorum; bir ürünün frontend tarafının sorumluluğunu üstlenebileceğim bir ekip arıyorum.",
     "cv": "CV'yi İndir",
