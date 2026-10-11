@@ -21,7 +21,7 @@ export async function generateMetadata({
   };
 
   return {
-    metadataBase: new URL("https://personal-website-flax-six-86.vercel.app"),
+    metadataBase: new URL("https://navidjaberi.vercel.app"),
     title: t("title"),
     description: t("description"),
     icons: {
