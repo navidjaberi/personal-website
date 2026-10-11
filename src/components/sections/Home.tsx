@@ -9,6 +9,7 @@ import { scroller } from "react-scroll";
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
+import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 type HomeProps = {
   ready?: boolean;
   onHeroLoaded?: () => void;
@@ -18,8 +19,8 @@ const Home = ({ ready = true, onHeroLoaded }: HomeProps) => {
   const { resolvedTheme } = useTheme();
   const t = useTranslations("hero");
   const locale = useLocale();
-  const readMoreHandler = () => {
-    scroller.scrollTo("about", {
+  const contactHandler = () => {
+    scroller.scrollTo("contact", {
       duration: 500,
       smooth: true,
       offset: -80,
@@ -110,24 +111,29 @@ const Home = ({ ready = true, onHeroLoaded }: HomeProps) => {
             >
               {t("description")}
             </motion.p>
-            <motion.button
+            <motion.div
+              className="flex flex-wrap items-center justify-center gap-3 mt-5"
               initial={{ opacity: 0, y: 20 }}
-              animate={
-                ready
-                  ? {
-                      opacity: 1,
-                      y: 0,
-                      transition: { duration: 0.8, delay: 0.4, ease },
-                    }
-                  : { opacity: 0, y: 20 }
-              }
-              whileHover={hoverTap.whileHover}
-              whileTap={hoverTap.whileTap}
-              className="block border text-sm md:text-lg px-4 py-1 mt-5 mx-auto rounded-3xl  items-center bg-lightSecondary border-lightPrimary dark:bg-transparent dark:text-darkSecondary dark:border-darkSecondary "
-              onClick={readMoreHandler}
+              animate={ready ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.8, delay: 0.4, ease }}
             >
-              {t("readMore")}{" "}
-            </motion.button>
+              <motion.a
+                className="inline-flex items-center justify-center text-sm md:text-lg px-4 py-1 rounded-3xl font-medium shadow-md border border-lightPrimary bg-lightPrimary text-white dark:bg-white dark:text-black dark:border-white"
+                href="/resume/Navid-jaberi-international.pdf"
+                download
+                {...hoverTap}
+              >
+                <ArrowDownTrayIcon className="w-4 h-4 me-2 shrink-0" />
+                {t("cv")}
+              </motion.a>
+              <motion.button
+                className="inline-flex items-center justify-center border text-sm md:text-lg px-4 py-1 rounded-3xl bg-lightSecondary border-lightPrimary dark:bg-transparent dark:text-darkSecondary dark:border-darkSecondary"
+                onClick={contactHandler}
+                {...hoverTap}
+              >
+                {t("contact")}
+              </motion.button>
+            </motion.div>
           </motion.div>
         </div>
 

@@ -15,7 +15,8 @@
     "role": "Frontend Mühendisi · Vue.js / Nuxt",
     "location": "Tahran, İran / Gazimağusa, Kıbrıs · Uzaktan çalışmaya açık",
     "description": "Hızlı, erişilebilir ve test edilmiş Vue ve Nuxt ürünleri geliştiriyorum; bir frontend'in sorumluluğunu üstlenebileceğim bir ekip arıyorum.",
-    "readMore": "Daha Fazla"
+    "cv": "CV'yi İndir",
+    "contact": "İletişime Geç"
   },
   "about": {
     "title": "Hakkımda",
@@ -25,8 +26,7 @@
     "title": "İletişim",
     "thanks": "Ziyaret ettiğiniz için teşekkürler!",
     "description": "Uzaktan frontend rollerine açığım. Bana en hızlı e-postayla ulaşabilir ya da LinkedIn'den mesaj atabilirsiniz.",
-    "cv1": "CV'yi İndir (Kurumsal / ATS Uyumlu)",
-    "cv2": "CV'yi İndir (Görsel Versiyon / Fotoğraflı)"
+    "cv": "CV'yi İndir"
   },
   "experiences": {
     "more": "Daha fazla",

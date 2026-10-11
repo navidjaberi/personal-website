@@ -15,7 +15,8 @@
     "role": "Frontend Engineer · Vue.js / Nuxt",
     "location": "Tehran, Iran / Famagusta, Cyprus · Open to remote",
     "description": "I build Vue and Nuxt products that are fast, accessible and tested, and I'm looking for a team where I can own a frontend.",
-    "readMore": "Read More"
+    "cv": "Download CV",
+    "contact": "Contact Me"
   },
   "about": {
     "title": "About Me",
@@ -25,8 +26,7 @@
     "title": "Contact",
     "thanks": "Thanks for visiting!",
     "description": "I'm open to remote frontend roles. The quickest way to reach me is email, or message me on LinkedIn.",
-    "cv1": "Download CV (ATS-Friendly / Corporate)",
-    "cv2": "Download CV (Visual Edition / With Photo)"
+    "cv": "Download CV"
   },
   "experiences": {
     "more": "Show more",

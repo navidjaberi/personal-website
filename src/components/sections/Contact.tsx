@@ -66,18 +66,7 @@ const Contact = () => {
               {...hoverTap}
             >
               <ArrowDownTrayIcon className="w-4 h-4 me-2 shrink-0" />
-              {t("cv1")}
-            </motion.a>
-          </div>
-          <div className="mt-5">
-            <motion.a
-              className="inline-flex items-center justify-center text-xs md:text-base px-6 py-2 rounded-3xl font-medium transition-colors bg-transparent text-lightPrimary border border-lightPrimary dark:text-darkSecondary dark:border-darkSecondary hover:bg-lightPrimary/5 dark:hover:bg-white/5"
-              href="/resume/Navid-jaberi-july-visual.pdf"
-              download
-              {...hoverTap}
-            >
-              <ArrowDownTrayIcon className="w-4 h-4 me-2 shrink-0" />
-              {t("cv2")}
+              {t("cv")}
             </motion.a>
           </div>
 
