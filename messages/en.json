@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Navid Jaberi | Frontend Engineer",
-    "description": "Navid Jaberi, a frontend engineer with four years of experience building fast, accessible web applications. Experience, open-source projects, skills and resume."
+    "description": "Navid Jaberi, a frontend engineer with more than 4 years of experience building fast, accessible web applications. Experience, open-source projects, skills and resume."
   },
   "nav": {
     "home": "Home",
@@ -20,7 +20,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "I'm Navid Jaberi, a frontend engineer with four years of experience building production web applications, from SaaS platforms and internal tools to SEO-driven public sites. Most recently I worked full-time in a Scrum team at Dongi.\n\nI learned frontend step by step along a structured roadmap, and I still work that way: I test what I ship and pick up new tools early. The clearest example is Vue Smart Loading Kit, my open-source library published on npm and checked with mutation testing. I also use AI tools like Claude Code, Codex and Copilot every day, with tests and types keeping their output in check.\n\nMy main tools are TypeScript, Vue, Nuxt, React, Next.js, Pinia and Tailwind CSS; this site is built with Next.js. I care about the parts users feel but rarely see: accessibility, Core Web Vitals, technical SEO, and RTL and multilingual interfaces.\n\nI hold a bachelor's degree in psychology, which still shapes how I think about the people using what I build. I speak Persian (native), English (advanced) and Turkish (basic).\n\nI'm looking for a team where I can take ownership of a product's frontend and keep growing."
+    "description": "I'm Navid Jaberi, a frontend engineer with more than 4 years of experience building production web applications, from SaaS platforms and internal tools to SEO-driven public sites. Most recently I worked full-time in a Scrum team at Dongi.\n\nI learned frontend step by step along a structured roadmap, and I still work that way: I test what I ship and pick up new tools early. The clearest example is Vue Smart Loading Kit, my open-source library published on npm and checked with mutation testing. I also use AI tools like Claude Code, Codex and Copilot every day, with tests and types keeping their output in check.\n\nMy main tools are TypeScript, Vue, Nuxt, React, Next.js, Pinia and Tailwind CSS; this site is built with Next.js. I care about the parts users feel but rarely see: accessibility, Core Web Vitals, technical SEO, and RTL and multilingual interfaces.\n\nI hold a bachelor's degree in psychology, which still shapes how I think about the people using what I build. I speak Persian (native), English (advanced) and Turkish (basic).\n\nI'm looking for a team where I can take ownership of a product's frontend and keep growing."
   },
   "contact": {
     "title": "Contact",
@@ -40,8 +40,8 @@
     "npm": "npm"
   },
   "skills": {
-    "frontend": "Frontend",
-    "alsoWorkedWith": "Also worked with",
+    "frontend": "Main expertise",
+    "alsoWorkedWith": "Also experienced with",
     "ui": "UI & Styling",
     "architecture": "Architecture",
     "quality": "Web Quality",
